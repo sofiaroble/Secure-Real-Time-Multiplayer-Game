@@ -1,0 +1,35 @@
+body {
+  background: #1a1a1a; /* Adding a dark background for better contrast */
+  color: #f2f2f2; /* Setting text color to light for contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace; /* Changing font style */
+}
+
+canvas {
+  border: 2px solid #f2f2f2; /* Adding a border to the game canvas */
+  background: #000; /* Adding a background to the game canvas */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  background: #d0d0d5;
+  padding: 2px 4px;
+  border-radius: 4px; /* Adding a border-radius to code snippets */
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
